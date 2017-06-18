@@ -1,0 +1,218 @@
+/* Various Styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #020202;
+}
+.headerbutton
+{
+  margin-left: 21vw;
+}
+.after_header
+{
+   height: 12px;
+   border: 0;
+   box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+.headerbutton>li
+{
+  text-decoration: none;
+  text-align: center;
+  list-style: none;
+  white-space: nowrap;
+  display: inline;
+  height: 6vh;
+  margin: 10px 3px 0 0;
+  background-color: #fff;
+  transition: background-color 0.2s ease-in-out;
+  border-bottom: 2px solid #0e9;
+  border-radius: 10px;
+  color: #009;
+}
+.headerbutton>li:hover
+{
+  text-decoration: none;
+  text-align: center;
+  list-style: none;
+  white-space: nowrap;
+  display: inline;
+  height: 8vh;
+  background-color: #00ee99;
+  color: black;
+}
+.searchbar-header
+{
+  float: right;
+  list-style: none;
+  display: inline;
+  /*height: 8vh;*/
+  /*width: 33%*/
+  /*margin-bottom: 0;*/
+}
+
+/*#searchbar
+{
+  /*width: 33%;*/
+  /*height: auto;
+  pointer-events: none;
+  border: none;
+}
+*/*/
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  /*padding: 60px 15px 0;*/
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+/*.footer > .container {*/
+  /*padding-right: 15px;
+  padding-left: 15px;*/
+/*}*/
+
+/*code {*/
+  /*font-size: 80%;*/
+/*}*/
+/*.parent
+{
+  position: relative;
+}
+.parent .child
+{
+  position: absolute;
+  left: auto;
+  right: 0;
+  width: auto;
+  height: auto;
+}*/
+#searchboxeffect {
+    width: 20vw;
+    height: 8vh;
+    margin-top: 5px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    padding-left: 10px;
+    /*background-image: url("C:\Users\Sachin\Documents\Assets\bootstrap simple header & footer\Sticky Footer Navbar Template for Bootstrap_files\find(1).ico");*/
+    transition: width 0.4s ease-in-out;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    border-radius: 10px;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    background: url(C:\Users\Sachin\Documents\Assets\bootstrap simple header & footer\Sticky Footer Navbar Template for Bootstrap_files\find(1).ico) no-repeat scroll 7px 7px;
+    padding-left:30px;
+}
+
+/* When the input field gets focus, change its width to 100% */
+#searchboxeffect:focus {
+    width: 25vw;
+}
+#contact_btn
+{
+  background-color: white;
+  color: black;
+  width: 25vw;
+  height: 6vh;
+  transition: background-color 0.2s ease-in-out;
+  display: inline;
+  background-color: #fff;
+  border-bottom: 2px solid #0e9;
+  border-radius: 10px;
+  color: #009;
+  float: right;
+  margin-left: 0;
+  margin-top: 10px;
+}
+#contact_btn:hover
+{
+  background-color: #00ee99;
+  color: black; 
+}
+.footer_li>li
+{
+  text-decoration: none;
+  list-style: none;
+  white-space: nowrap;
+  display: inline;
+  margin: 10vw 10vw 0 2vw;
+  color: white;
+}
+#logo
+{
+  color: white;
+  margin : 5px;
+  font-size: 2em;
+}
+.ExtraTribtns
+{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  font-weight: bold;
+  font-size: 1em;
+  color: #002200;
+  text-align: left;
+  display:table-cell;
+  z-index: 1;
+  margin-left: 10px;
+  vertical-align:bottom;
+  border-width: 0 100px 100px 100px;
+  margin-right: 2.5vw;
+  border-color: #336799 #336799 #eec3f7 #336799;
+  transition: border-color 0.2s ease-in-out;
+ /* */
+}
+.ExtraTribtns:hover
+{
+  border-color: #336799 #336799 #ff33cc #336799;
+}
+#divoverfooter
+{
+  position: absolute;
+  bottom: 60px;
+  left: 0;
+  right: 0;
+  width: 100%
+}
+.tempimage
+{
+  top: 0;
+  border: 0;
+  left: -30px;
+  right: 0;
+
+  height: 85.4vh;
+  width: 100%;
+}
+.labelinsidebtn
+{
+  text-align: center;
+  vertical-align: bottom;
+  right: 10px;
+}
+/*#margintribtn
+{
+  position: absolute;
+  bottom: 60px;
+  width: 100%;
+  top: 0;
+  left: 0;
+}*/
