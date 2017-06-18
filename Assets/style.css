@@ -109,7 +109,6 @@ body > .container {
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
     padding-left: 10px;
-    /*background-image: url("C:\Users\Sachin\Documents\Assets\bootstrap simple header & footer\Sticky Footer Navbar Template for Bootstrap_files\find(1).ico");*/
     transition: width 0.4s ease-in-out;
     box-sizing: border-box;
     border: 2px solid #ccc;
@@ -117,7 +116,6 @@ body > .container {
     border-radius: 10px;
     background-position: 10px 10px; 
     background-repeat: no-repeat;
-    background: url(C:\Users\Sachin\Documents\Assets\bootstrap simple header & footer\Sticky Footer Navbar Template for Bootstrap_files\find(1).ico) no-repeat scroll 7px 7px;
     padding-left:30px;
 }
 
